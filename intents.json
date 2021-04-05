@@ -1,0 +1,150 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi","hii","hie", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        
+    
+        {"tag": "Mopedo",
+         "patterns": ["what is Mopedo","what does Mopedo mean?","Mopedo?"],
+         "responses": ["Mopedo is a Bike-Taxi hailing application integrated with advanced AI technology offering the most affordable and reliable commute service to every common man by considering every second of customer intent. "]
+
+        },
+    
+        {"tag": "services",
+         "patterns": ["What services does mopedo provide?","services offered by Mopedo?","mopedo services", "services","is it a bike taxi?","does it provide Auto service?","services offered?"],
+         "responses": ["The application provides Mopedo Bike and Auto services."]
+        
+        },
+    
+        {"tag": "safety",
+         "patterns": ["How safe is Mopedo?","how safe is it to travel?","Is it safe?","security","safety"," is it safe for consumers?", "is it safe for drivers","how safe to take up a ride?"],
+         "responses": ["The application ensures high-end security for users with safe and home free rides."]
+         
+        },
+    
+        {"tag": "payment",
+         "patterns": ["What are the payment modes mopedo accepts?","payment","payment gateway?","Are you cash only?","can i pay in cash","how can i pay to the rider?", "how mopedo accepts payments?","how can i pay to the rider?" ],
+         "responses": ["Mopedo allows cash payment and also accepts credit/debit cards, digital wallets(gpay, phonepe, paytm) which saves from hassle of tendering the exact change."]
+         
+        },
+    
+        {"tag": "Book for others",
+         "patterns": ["Is it possible to book a ride for others in mopedo?","guardian booking","Can I book for others?","Can I book a ride for my parents?","Is there any option to book a ride for guardian?","Book ride for others?"],
+         "responses": ["Yes, Of course.! Anyone with the mopedo application can book a ride for themselves and guardians just by specifying the guardian’s details. "]
+        },
+    
+        {"tag": "uniqueness",
+         "patterns": ["What's the unique thing about mopedo compared to other bike taxi services?","How is it different from other taxi services?","what technology is used?","technology?","why should we opt Mopedo?","why should we choose Mopedo?"],
+         "responses": ["The all-new Mopedo application provides bike services just one click away to every individual. The application is completely automated with the latest AI technology inbuilt without giving a chance of stepping back."]
+
+        },
+    
+        {"tag": "availability",
+         "patterns": ["Mopedo city boundaries?","In which cities it is available?", "where it is available?","cities","city boundaries" ],
+         "responses": ["It operates across major cities in India. These areas will change overtime as we grow our presence across the country."]
+        },
+    
+        {"tag": "Distance Limit",
+        "patterns": ["Do we have any distance limit?","is there any distance limit?","what's is the distance limit?","how far can we travel?","how many kilometers can we travel?","distance limit"],
+         "responses": ["Mopedo is confined to only about 40km from the point of pick-up location"]
+        },
+
+        {"tag": "pricing",
+         "patterns": ["how are they charged?","how mopedo ride fare is estimated?","Ride fare?","what's the price fo mopedo"],
+         "responses": ["Mopedo pricing depends upon Distance travelled, Minimum fare, Per km and Per min which vary based on the pickup and destination locations."]
+         
+        },
+    
+        {"tag": "precautions",
+         "patterns": ["Does the mopedo pilot follow the safety precautions?","what are the safety precautions followed by pilot?","safety precautions"],
+         "responses": [" Yes, our  pilots are informed to follow the agreed customer limits and precautionary measures. "]
+        },
+    
+        {"tag": "ride cancellation",
+         "patterns": ["Am I charged for cancellation?","cancellation charges","how can i cancel ride?","ride cancellation charges?"],
+         "responses": ["The ride cancellation request can be raised before the onboarding ETA in CANCEL RIDE section and will not be charged unless the request exceeds the ETA."]
+        },
+    
+        {"tag": "schedule ride",
+         "patterns": ["Can I schedule my ride in advance?","schedule ride","ride schedule?","how can we schedule ride?","how scheduling ride works?","booking ride in advance?"],
+         "responses": ["You can schedule a ride in prior but within 24 hours in schedule ride section."]
+        },
+    
+        {"tag": "woman safety",
+         "patterns": ["Is the Mopedo bike taxi application user-friendly for women?","how safe is mopedo for woman?","woman safety","is mopedo safe for woman?","Any woman drivers?","how safe is mopedo for women to take up a ride?"],
+         "responses": ["Anyone who wants to earn can get registered with mopedo. No one would be restricted on the basis of gender. It's absolutely a woman friendly application with no hassling risks from the pilots as well as the consumers."]
+        },
+    
+        {"tag": "ride history",
+         "patterns": ["can i view my ride history?","ride history","will my past rides be saved","previous rides","can we see my previous rides?","my ride history"],
+         "responses": ["your every ride with mopedo will be saved atomatically and can be viewed in the ride history section."]
+        },
+
+        {"tag": "service duration",
+         "patterns": ["Does Mopedo provide 24 hour ride service?","how long mopedo provides service?","is it a 24hour service?","can i book a ride during nights?","24hrs service?"],
+         "responses": ["Customers can book mopedo rides between 6am - midnight."]
+        },
+
+        {"tag": "pilot details",
+         "patterns": ["What details does mopedo provide customers about the pilots during the onboarding process?","pilot details","will the pilot details be diplayed during on boarding?","Onboarding details?"],
+ "responses": ["Once after the ride gets confirmed, the pilot's details which includes Name, Mobile Number, Vehicle number along with a photograph will be displayed on the main screen"]
+        },
+
+        {"tag": "estimated time of arrival(ETA)",
+         "patterns": ["How does ETA work?","ETA?","what is ETA","ETA means","does ETA work accurately?","is ETA accurate?"],
+         "responses": ["ETA given by mopedo is likely to be the approximate time for the driver to reach the pick-up location from his/her current location and the destination"]
+        },
+      
+        {"tag": "help",
+         "patterns": ["Whom do i meet in case of any problem while charging my vehicle","who will be supporting us to Charge my EV?","does vovo provide any technicians in case of any emergencies?","help"],
+         "responses": ["You can contact station technicians. They will be avaialable 24/7 at your service"]
+        },
+
+        {"tag": "registration",
+         "patterns": ["How can we get registered with Mopedo?","mopedo registration","how can we get into mopedo?","how can i register as a driver","how can i register as a consumer","consumer registration","driver registration","how to get into the application?"],
+         "responses": ["If you want to get started as a pilot, please download the mopedo Driver application from  playstore. And follow up with the guidelines suggested by the application.If you want to get started as a customer, please download the mopedo taxi(customer) application from  playstore. And follow up with the guidelines suggested by the application."]
+        },
+
+        {"tag": "insurance policy",
+         "patterns": ["What is mopedo ride insurance policy?","insurance","insurance policy","consumers insurance?","insurance for the consumer","ride insurance policy?"],
+         "responses": ["Mopedo  offers a group insurance worth Rs. 5lakhs for their customers in case of unexpected accidents that take place during the ride."]
+
+        },
+
+        {"tag": "costumers per ride",
+         "patterns": ["How many customers can travel per ride with mopedo?","number of customers per ride?","no. of customers per ride","number of customers","customers per ride?"],
+         "responses": ["Mopedo bike allows a single customer per ride. Mopedo Auto allows two customers per ride."]
+        },
+
+        {"tag": "ride tracking",
+         "patterns": ["How can we track our ride?","ride tracking","track ride","no. of customers per ride","number of customers","Can we track driver's location","driver location tracking"],
+         "responses": ["Once your booking is confirmed, you’ll be able to track your ride on the main map screen and view the following details in the Map section. Within the application dashboard.1. Driver ETA and current location 2. Driver route to your pick-up address 3. And whole estimated distance of your ride"]
+        },
+
+        {"tag": "refer a friend",
+         "patterns": ["What does “refer a friend policy” mean?","refer a friend","refer a friend policy","bonus rewards","how will i get bonus rewards"],
+         "responses": ["The registered customers can refer the application through a sharable link to others and gain bonus rewards. These bonus rewards can be redeemed and used for the next ride. "]
+        },
+
+        
+        {"tag": "contact",
+         "patterns": ["contact",""],
+         "responses": ["for more info contact us at <a href='info@mopedo.in'>mopedo.in</a> "]
+        }
+        
+        
+   ]
+}
+
